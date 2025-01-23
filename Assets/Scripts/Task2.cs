@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class Task2 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-
     public double originalPriceX;
     public double numberOfCopiesY;
     public bool isBookstore;
@@ -13,6 +11,7 @@ public class Task2 : MonoBehaviour
     private double totalCost;
     private double profit;
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //negative numbers and zero are invalid entries, because businesses don't work that way
@@ -75,11 +74,5 @@ public class Task2 : MonoBehaviour
             Debug.Log("Your potential profit will be $0.00.");
 
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
