@@ -17,6 +17,7 @@ public class Task3 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //calculate how many of each dollar bill then return remainder until only "ones" remain.
         hundreds = paidDollarsX / 100;
         paidDollarsX %= 100;
 
@@ -34,6 +35,8 @@ public class Task3 : MonoBehaviour
 
         ones = paidDollarsX;
 
+
+        //print to the console how many of each dollar amount for each dollar bill type.
         if (hundreds > 0)
         {
             Debug.Log("$100 bills: " + hundreds);
