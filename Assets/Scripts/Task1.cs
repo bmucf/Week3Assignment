@@ -13,7 +13,6 @@ public class Task1 : MonoBehaviour
     [Range(1, 10)] public int numQuizzes;
     [Range(1, 10)] public int numAssignments;
     public bool isInstructorNonRookie;
-
     private double challengeScore;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
