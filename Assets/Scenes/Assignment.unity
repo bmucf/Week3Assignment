@@ -127,7 +127,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 67863642}
+  - component: {fileID: 67863644}
   - component: {fileID: 67863641}
+  - component: {fileID: 67863643}
   m_Layer: 0
   m_Name: Calculator
   m_TagString: Untagged
@@ -142,14 +144,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67863640}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61655e80933b84b4e9e8eccf4e04ee4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalPriceX: -50
-  numberOfCopiesY: 100
-  isBookstore: 1
+  originalPriceX: 0
+  numberOfCopiesY: 0
+  isBookstore: 0
 --- !u!4 &67863642
 Transform:
   m_ObjectHideFlags: 0
@@ -165,6 +167,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &67863643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67863640}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235ca005741c84a4dbf882d2b4ad4143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paidDollarsX: 0
+--- !u!114 &67863644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67863640}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d67bc9541b9449a44802ad2f1c00dca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  courseName: 
+  numModules: 0
+  numReadings: 0
+  numQuizzes: 0
+  numAssignments: 0
+  isInstructorNonRookie: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
